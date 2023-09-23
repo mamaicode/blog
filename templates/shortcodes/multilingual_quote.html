@@ -1,0 +1,32 @@
+{%- import "macros/translate.html" as macros_translate -%}
+
+{%- set open_quote = macros_translate::translate(key="open_quotation_mark", default="“") -%}
+{%- set close_quote = macros_translate::translate(key="close_quotation_mark", default="”") -%}
+
+{#- The `random_id` ensures that each instance of the shortcode has a "unique" id -#}
+{#- allowing individual interactive elements (like toggles) to function correctly. -#}
+{#- This avoids conflicts when multiple instances of the shortcode are used. -#}
+{#- More context: https://github.com/welpo/tabi/issues/82 -#}
+{%- set random_id = get_random(end=100000) -%}
+
+<div class="quote-container">
+    <input type="checkbox" id="toggle-{{ random_id }}" class="quote-toggle">
+    <div class="quote">
+        <div class="translated">
+            <blockquote>
+                <p>{{ open_quote ~ translated ~ close_quote }}</p>
+                {% if author %}<p> — {{ author }}{% endif %}<label for="toggle-{{ random_id }}" class="quote-label quote-label-original">
+                    ({{- macros_translate::translate(key="show_original_quote", default="Show original quote") -}})
+                    </label></p>
+            </blockquote>
+        </div>
+        <div class="original">
+            <blockquote>
+                <p>{{ open_quote ~ original ~ close_quote }}</p>
+                {% if author %}<p> — {{ author }}{% endif %} <label for="toggle-{{ random_id }}" class="quote-label quote-label-translate">
+                    ({{- macros_translate::translate(key="show_translation", default="Show translation") -}})
+                </label></p>            
+            </blockquote>
+        </div>
+    </div>
+</div>
