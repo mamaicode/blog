@@ -24,7 +24,7 @@ homepage = "https://osc.garden"
 # Each should have a translation section above.
 # e.g. [languages.ca.translations]
 # language_name.ge = "ქართული"
-# language_name.ge = "English"
+# language_name.en = "English"
 # language_name.ru = "Русский"
 
 # Enable JavaScript theme toggler to allow users to switch between dark/light mode.
