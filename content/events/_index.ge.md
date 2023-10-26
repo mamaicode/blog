@@ -1,5 +1,5 @@
 +++
-title = "Projectes"
+title = "ღონისძიებები"
 sort_by = "weight"
 template = "cards.html"
 

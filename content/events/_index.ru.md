@@ -1,5 +1,5 @@
 +++
-title = "Proyectos"
+title = "Мероприятия"
 sort_by = "weight"
 template = "cards.html"
 

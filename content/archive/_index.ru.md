@@ -1,5 +1,5 @@
 +++
-title = "Archivo"
+title = "Архив"
 template = "archive.html"
 
 [extra]
