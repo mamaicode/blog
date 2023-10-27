@@ -1,10 +1,9 @@
 +++
-title = "chu"
-description = "Flask app for secure file uploads, with metadata removal, compression, password protection, and more."
-weight = 2
-
+title = "Cloud Way! Tech Talk #16"
+description = "Inspiring path to DevOps: Story of Irine Kokilashvili, experiences working at EPAM, participating in hackathons, and engaging in internal communities."
+weight = 4
 
 [extra]
-local_image = "img/chu.webp"
-link_to = "https://github.com/welpo/chu"
+local_image = "img/cloudway.jpg"
+link_to = "https://wearecommunity.io/events/cloud-way-tech-talk-16"
 +++

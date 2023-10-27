@@ -1,5 +1,5 @@
 base_url = "https://welpo.github.io/tabi"
-title = "~/tabi"
+title = "Irine"
 description = "tabi is a fast, lightweight, and modern Zola theme with multi-language support, optional JavaScript, and a perfect Lighthouse score."
 author = "welpo"
 generate_feed = true
@@ -31,7 +31,7 @@ taxonomies = [
 ]
 
 [languages.ge]
-title = "~/tabi"
+title = "Irine"
 description = "Georgian tabi"
 generate_feed = true
 compile_sass = true
@@ -226,7 +226,7 @@ short_date_format = ""
 separator = "•"
 
 # Invert the order of the site title and page title in the browser tab.
-# Example: true => "Blog • ~/tabi", false => "~/tabi • Blog"
+# Example: true => "Blog • Irine", false => "Irine • Blog"
 invert_title_order = false
 
 # Full path after the base URL required. So if you were to place it in "static" it would be "/favicon.png"

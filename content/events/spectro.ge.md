@@ -1,7 +1,7 @@
 +++
 title = "spectro"
 description = "Script de Bash per generar espectrogrames, comparar-los, carregar-los a Imgur i proporcionar els corresponents URLs per compartir-los."
-weight = 4
+weight = 1
 
 [extra]
 local_image = "img/spectro.webp"

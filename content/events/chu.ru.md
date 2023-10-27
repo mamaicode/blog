@@ -1,9 +1,9 @@
 +++
-title = "chu"
-description = "Aplicación Flask para subir archivos de forma segura, con eliminación de metadatos, compresión, protección con contraseña y más."
-weight = 2
+title = "Cloud Way! Tech Talk #16"
+description = "Inspiring path to DevOps: Story of Irine Kokilashvili, experiences working at EPAM, participating in hackathons, and engaging in internal communities."
+weight = 4
 
 [extra]
-local_image = "img/chu.webp"
-link_to = "https://github.com/welpo/chu"
+local_image = "img/cloudway.jpg"
+link_to = "https://wearecommunity.io/events/cloud-way-tech-talk-16"
 +++
